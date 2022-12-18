@@ -1,0 +1,536 @@
+/*----------------------- SALTAR NAVEGACION -------------------------------*/
+.saltarNavegacion {
+  position: absolute;
+  -webkit-transform: translateY(-120%);
+          transform: translateY(-120%);
+  color: white;
+  text-decoration: none;
+}
+
+.saltarNavegacion:focus {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+/*------------------------WHATSAPP----------------------*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+/*-----------------------ICONOS HEADER----------------------------------------*/
+#goog-gt-tt {
+  display: none !important;
+}
+
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+/*-----------------------TITULOS----------------------------------------*/
+.imagenIcono {
+
+  border-bottom-right-radius: 60%;
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 500px;
+  margin-left: 250px;
+}
+
+.fondoTituloSecundario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-left: 78px;
+  width: auto;
+}
+
+.tituloSecundario {
+  font-family: "Rampart One", cursive;
+  font-weight: 400;
+  font-size: 10.5vh;
+  -webkit-text-stroke: 3px black;
+  border-radius: 40px;
+  background-color: whitesmoke;
+  width: 140vh;
+  margin-bottom: 50px;
+}
+
+/*-----------------------3 ENLACES----------------------------------------*/
+.h2Enlaces {
+  margin-left: 78px;
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 70px;
+}
+
+.enlaces {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 78px;
+}
+
+.enlace1,
+.enlace2,
+.enlace3 {
+  border-radius: 19px;
+  border-color: black;
+  border-style: solid;
+  background-color: white;
+  margin-left: 35px;
+  margin-right: 35px;
+  -webkit-box-shadow: 16px -5px 2px 2px rgba(0, 0, 0, 0.47);
+          box-shadow: 16px -5px 2px 2px rgba(0, 0, 0, 0.47);
+  text-align: center;
+  padding: 20px;
+  width: 11em;
+  height: 39vh;
+}
+
+.enlace1 > a,
+.enlace2 > a,
+.enlace3 > a {
+  color: black;
+  font-weight: 1000;
+  text-decoration: none;
+  
+}
+
+.btn-acceso-rapido:hover {
+  background-color: lightgray;
+}
+
+.btn-acceso-rapido:active {
+  -webkit-transform: translate(16px, -6px);
+          transform: translate(16px, -6px);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*-----------------------FORMULARIO----------------------------------------*/
+.tituloFormulario {
+  margin-bottom: 30px;
+  margin-left: 30px;
+  font-size: 60px;
+}
+
+.botonFormulario {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 78px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.botonFormulario > button {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.inputsFormulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 78px;
+  margin-top: 30px;
+}
+
+.form1,
+.form2,
+.form3 {
+  margin-left: 35px;
+  margin-right: 35px;
+  padding: 5px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid black;
+}
+
+/*-----------------------NOTICIAS----------------------------------------*/
+.contenidoNoticias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 78px;
+  row-gap: 25px;
+}
+
+.tituloNoticia {
+  text-align: center;
+  font-family: "Bungee", cursive;
+  font-size: 30px;
+  color: #b89636;
+}
+
+.contenido {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5em;
+  border-radius: 30px;
+  border-color: black;
+  border-style: solid;
+  padding: 20px;
+  background-color: whitesmoke;
+  width: 35vh;
+  height: 39vh;
+  word-wrap: break-word;
+  overflow-y: scroll;
+}
+
+.contenidoOferta {
+  border-radius: 30px;
+  border-color: black;
+  border-style: solid;
+  padding: 20px;
+  background-color: whitesmoke;
+  margin-left: 110px;
+  width: 90%;
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.textoOferta {
+  word-wrap: break-word;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5em;
+  margin-left: 400px;
+}
+
+.imagenOferta {
+  overflow: hidden;
+  position: absolute;
+  margin-top: -18px;
+  margin-left: -65%;
+  max-width: 90%;
+  max-height: 29vh;
+  border-radius: 7%;
+}
+
+/*--------Scrollbar de Noticias----------*/
+.scrollbar::-webkit-scrollbar {
+  width: 9px;
+  height: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: grey;
+}
+
+/*-----------------------FOOTER----------------------------------------*/
+.footer {
+  border-top-width: 2px;
+  border-top-style: solid;
+  background: #212529;
+
+  color: white;
+  margin-left: 78px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+  padding-left: 70px;
+}
+
+.footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.logoJunta {
+  width: 120px;
+  height: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.bannerGobierno {
+  width: 340px;
+  height: 85px;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.textoFooter {
+  font-size: 2.15vh;
+  text-align: center;
+  font-weight: 500;
+}
+
+.textoFooter > a {
+  color: whitesmoke;
+  font-weight: 1000;
+}
+
+#loader {
+  z-index: 999999;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://c.tenor.com/9AK36kSW3dcAAAAM/exito-time.gif) 50% 50% no-repeat black;
+}
+
+/*---------------------------------CSS Aplicado a ventanas reducidas------------------------------------- */
+@media (max-width: 1000px) {
+  .enlaces {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 65px;
+    -webkit-column-gap: 80px;
+            column-gap: 80px;
+  }
+  .enlace1,
+  .enlace2,
+  .enlace3 {
+    border-radius: 19px;
+    background-color: white;
+    -webkit-box-shadow: 16px -5px 2px 2px rgba(0, 0, 0, 0.47);
+            box-shadow: 16px -5px 2px 2px rgba(0, 0, 0, 0.47);
+    text-align: center;
+    padding: 20px;
+    width: 11em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .tituloPrincipal {
+    font-size: 80px;
+    margin-left: 65px;
+  }
+  .imagenInicio {
+    width: 400px;
+    height: 250px;
+  }
+  .contenedorImagen {
+    margin-top: 50px;
+  }
+  .tituloSecundario {
+    font-size: 6vh;
+    width: 90vh;
+  }
+  .bannerGobierno {
+    width: 10px;
+    height: 10px;
+    margin-left: 0px;
+    margin-right: 20px;
+    border-radius:30%;
+  }
+  .footer {
+    margin-left: 55px;
+  }
+  .textoFooter {
+    font-size: 1vh;
+    text-align: center;
+    font-weight: 500;
+  }
+  .logoJunta {
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .imagenIcono {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 200px;
+  }
+  .contenidoOferta {
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin-left: 80px;
+    width: 85%;
+    height: 41vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+  }
+  .textoOferta {
+    word-wrap: break-word;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5em;
+    margin-left: 320px;
+  }
+  .imagenOferta {
+    overflow: hidden;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -45%;
+    max-width: 42%;
+    max-height: 30vh;
+    border-radius: 7%;
+  }
+}
+
+@media (max-width: 770px) {
+  .contenidoOferta {
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin-left: 70px;
+    width: 85%;
+    height: 41vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+  }
+  .textoOferta {
+    word-wrap: break-word;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5em;
+    margin-left: 20px;
+  }
+  .imagenOferta {
+    display: none;
+  }
+}

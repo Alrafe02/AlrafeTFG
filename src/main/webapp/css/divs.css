@@ -1,0 +1,23 @@
+#divEnlaces {
+  background-color: lightgrey;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  margin-top: -350px;
+  width: 100%;
+}
+#divNoticias {
+  background-color: white;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#divOfertaEducativa {
+  background-color: lightgrey;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#divFormulario {
+	margin-left:78px;
+  background-color: white;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}

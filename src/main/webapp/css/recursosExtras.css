@@ -1,0 +1,162 @@
+.containerTransicion {
+  width: 200px;
+  height: 200px;
+  background: #f92672;
+  position: relative;
+  margin-right: 20px;
+}
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.9s ease-in-out;
+  position: absolute;
+  right: 0;
+  height: 200px;
+  width: 50px;
+  background: #428bca;
+}
+.containerTransicion:hover .fade-in {
+  opacity: 1;
+}
+.btn {
+  will-change: transform;
+  transition: transform 450ms;
+}
+.btn {
+  margin-left: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  background: slateblue;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+}
+.btn {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  background: slateblue;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+}
+.btn:hover {
+  transition: transform 125ms;
+  transform: translateY(-10px);
+}
+.box {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  outline-offset: 4px;
+}
+.box:first-of-type {
+  margin-right: 16px;
+}
+
+.wrapper {
+  display: flex;
+}
+.accelerated.box {
+  transition: transform 750ms;
+  will-change: transform;
+  background: slateblue;
+}
+.accelerated.box:hover,
+.accelerated.box:focus {
+  transform: translateY(10px);
+}
+
+.janky.box {
+  transition: margin-top 750ms;
+  will-change: margin-top;
+  background: deeppink;
+}
+.janky.box:hover,
+.janky.box:focus {
+  margin-top: 10px;
+}
+
+.transformaciones {
+  width: 200px;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.caja1 {
+  background-color: #ffcc99;
+}
+.caja2 {
+  background-color: #99ccff;
+}
+.caja3 {
+  background-color: #00ffff;
+}
+.caja4 {
+  background-color: #cc99cc;
+}
+.caja5 {
+  background-color: #ffff00;
+}
+.caja6 {
+  background-color: #6699ff;
+}
+.caja7 {
+  background-color: #66ff00;
+}
+.caja8 {
+  background-color: #cc66cc;
+}
+.caja9 {
+  background-color: #669933;
+}
+.caja10 {
+  background-color: #ff0000;
+}
+
+/*-----------Transformaciones-----------*/
+.caja1:hover {
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+}
+.caja2:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(350deg);
+}
+.caja3:hover {
+  -webkit-transform: translate(10%);
+  transform: translate(10%);
+}
+.caja4:hover {
+  -webkit-transform: skew(10deg);
+  transform: skew(10deg);
+}
+.caja5:hover {
+  -webkit-transform: skewY(10deg);
+  transform: skewY(10deg);
+}
+.caja6:hover {
+  -webkit-transform: skewX(-5deg);
+  transform: skewX(-5deg);
+}
+.caja7:hover {
+  -webkit-transform: translateX(20px);
+  transform: translateX(20px);
+}
+.caja8:hover {
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+}
+.caja9:hover {
+  -webkit-transform: perspective(150px) rotateX(45deg);
+  transform: perspective(150px) rotateX(45deg);
+}
+.caja10:hover {
+  -webkit-transform: perspective(150px) rotateY(45deg);
+  transform: perspective(150px) rotateY(45deg);
+}
