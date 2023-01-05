@@ -1,7 +1,7 @@
 # AlrafeTFG
--Proyecto de fin de grado-
-    _Vista General / Resumen_
-        Página web de una tienda física de juegos, juegos de mesa, cartas, merchandising,
+-Proyecto de fin de grado-<br>
+    _Vista General / Resumen_ <br>
+        >Página web de una tienda física de juegos, juegos de mesa, cartas, merchandising,
         comics/libros... Es una página web en la que puedes consultar todo tipo de productos
         mostrándolos por categoría, marca o incluso buscándolos por nombres a través de un
         buscador incluido.
